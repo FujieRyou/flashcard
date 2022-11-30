@@ -1,8 +1,30 @@
 
+.karuta{
+    width: 420px;
+    height: 600px;
+    border: solid 1px black;
+    margin: 0 auto;
+    overflow: hidden;
+}
 
-.startBtn{
-    width: 160px;
-    height: 56px;
+label{
+    display: block;
+    width: 210px;
+    height: 64px;
     background-color: aquamarine;
     border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 24px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
 }
+
+label:active{
+    background-color: rgb(37, 75, 62);
+}
+
+input{
+    display: none;
+}
+

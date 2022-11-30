@@ -11,9 +11,12 @@
 <body>
     <div class="wrap">
         <div class="startWrap">
-            <h1>フラッシュカード</h1>
-            <button type="button" class="startBtn">スタート</button>
+            <div class="karuta" id="js-karuta"></div>
+            <label for="photoBnt" id="photoBtn">写真を撮る</label>
+            <input type="file" accept="image/*" capture="camera" id="inputPhotoBnt">
         </div>
     </div>
+
+    <script src="js/flash_card.js"></script>
 </body>
 </html>
