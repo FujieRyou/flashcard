@@ -11,9 +11,14 @@
 <body>
     <div class="wrap">
         <div class="startWrap">
-            <div class="karuta" id="js-karuta"></div>
-            <label for="photoBnt" id="photoBtn">写真を撮る</label>
-            <input type="file" accept="image/*" capture="camera" id="inputPhotoBnt">
+            <div class="karutaWrap" id="js-karuta">
+                <img src="" alt="" id="karuta" class="karutaImg">
+            </div>
+            <label for="photoBnt" id="photo">写真を撮る</label>
+            <input type="file" accept="image/*" capture="camera" id="photoBnt" class="fileBtn">
+            <!-- <label for="photoBnt" id="photoBtn">
+                <input type="file" accept="image/*" capture="camera" id="inputPhotoBnt" class="fileBtn">写真を撮る
+            </label> -->
         </div>
     </div>
 

@@ -1,13 +1,13 @@
-const photoBtn = document.getElementById("photoBtn")
-console.log(photoBtn);
+const photo = document.getElementById("photo")
+console.log(photo);
 
-const inputPhotoBnt = document.getElementById("inputPhotoBnt")
-console.log(inputPhotoBnt);
+const photoBnt = document.getElementById("photoBnt")
+console.log(photoBnt);
 
-const karuta = document.getElementById("js-karuta")
+const karuta = document.getElementById("karuta")
 console.log(karuta);
 
-photoBtn.addEventListener("change",(e)=>{
+photoBnt.addEventListener("change",(e)=>{
     const reader = new FileReader();
     reader.onload = (e) =>{
         karuta.setAttribute("src",e.target.result);
